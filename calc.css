@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border: solid black;
+  width: 210px;
+  height: 500px;
+  align-content: center;
+  justify-content: flex-start;
+  gap: 5px;
+  align-items: center;
+  background-color: black;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+  border-radius: 5%;
+  margin-inline: auto;
+}
+#display {
+  height: 200px;
+  width: 200px;
+  border: solid grey 1px;
+  border-radius: 5%;
+  color: white;
+  margin-top: 2%;
+}
+button {
+  height: 50px;
+  width: 50px;
+  border: solid black;
+  border-radius: 50%;
+}
+#zero {
+  flex-grow: 1;
+}
+.button_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+answer {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10%;
+  margin-top: 80%;
+  font-size: medium;
+}
