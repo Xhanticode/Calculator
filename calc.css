@@ -27,6 +27,7 @@ button {
   width: 50px;
   border: solid black;
   border-radius: 50%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 #zero {
   flex-grow: 1;
@@ -45,4 +46,5 @@ answer {
   margin-right: 10%;
   margin-top: 80%;
   font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
 }
